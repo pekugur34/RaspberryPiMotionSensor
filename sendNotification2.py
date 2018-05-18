@@ -9,8 +9,8 @@ from email.mime.multipart import MIMEMultipart
 def sendEmail():
     msg = MIMEMultipart()
     msg['Subject'] = 'Someone is in your room!!'
-    msg['From'] = 'ugurpek22@gmail.com'
-    msg['To'] = 'pekugur34@gmail.com'
+    msg['From'] = 'Sender Mail here!!!'
+    msg['To'] = 'Receiver Mail here!!!'
 
     text = MIMEText("We detected a motion in your room!!")
     msg.attach(text)
@@ -38,6 +38,6 @@ def sendEmail():
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login('ugurpek22@gmail.com','Ugur.1907')
+    s.login('Sender Mail here!!!','Sender Mail Password here!!!')
     s.sendmail(msg['From'], msg['To'], msg.as_string())
     s.quit()
