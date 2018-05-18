@@ -1,6 +1,6 @@
 # RaspberryPiMotionSensor
 
-This is for taking pictures when any movement appears in front of the camera and the camera will send 5 pictures to ypur e-mail.
+This is for taking pictures when any movement appears in front of the camera and the camera will send 5 pictures to your e-mail.
 
 # Usage
 
