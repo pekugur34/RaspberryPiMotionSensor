@@ -4,11 +4,11 @@ This is for taking pictures when any movement appears in front of the camera and
 
 # Usage
 
-1-Type the commands on your pi's console:
-sudo apt-get install python-imaging-tk 
-sudo apt-get install python3-dev
-sudo apt-get install python3-pip
-sudo pip 3.2 install Pillow 
+1-Type the commands on your pi's console
+-sudo apt-get install python-imaging-tk 
+-sudo apt-get install python3-dev
+-sudo apt-get install python3-pip
+-sudo pip 3.2 install Pillow 
 
 2-Create this directory /home/pi/Desktop/cookie/images.(Pictures will be saved here and be removed after sending a mail.)
 
